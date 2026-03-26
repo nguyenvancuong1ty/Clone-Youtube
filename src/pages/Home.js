@@ -1,5 +1,5 @@
 function Home() {
-    return ( <h1>Home pages</h1>
+    return ( <> <h1>Home pages</h1>
         <div class="text">
 			<p>
 	Dịch Vụ Xây Kênh Youtube Chuyên Nghiệp | Dịch Vụ Sản Xuất Video Youtube | Đơn vị Xây Kênh Youtube Uy Tín</p>
@@ -108,7 +108,7 @@ function Home() {
 	</li>
 </ul>
         </div>
-        );
+        </>);
 }
 
 export default Home;
